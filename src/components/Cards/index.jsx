@@ -14,6 +14,7 @@ export default function ActionAreaCard({image, judul, bahan, harga}) {
           height="140"
           image={image}
           alt={judul}
+          loading="lazy"
         />
         <CardContent>
           <Typography gutterBottom variant="h4" component="div">

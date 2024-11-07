@@ -15,7 +15,7 @@ function SFooter() {
       </div>
       <hr width="90%" className="mx-auto" />
       <div className="Copy text-center mt-10">
-        <p>Copyright 2022 Saddlebagsco</p>
+        <p>Copyright 2024 Saddlebagsco</p>
       </div>
     </div>
   );

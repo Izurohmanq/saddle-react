@@ -1,4 +1,5 @@
 import Montana from "../src/assets/images/montana.jpg"
+import postman from "../src/assets/images/postman.jpg"
 import brownco from "../src/assets/images/brownco.jpg"
 import cust1 from "../src/assets/images/motor1.jpeg"
 import cust2 from "../src/assets/images/motor2.jpeg"
@@ -26,8 +27,9 @@ class CustPhotos {
 }
 
 const dataProduct = [
-    new Product(1, Montana, 'Montana', 'Bahan cordura Jansport Lapis busa tebal heavy oz Lapis fooring anti air. satu kantong seleting utama 3 belt loop kaitan ke rangka / behel dan shock breaker Dimensi: 22cm x 10cm 15cm', 'Cordura', 'Rp100.000'),
-    new Product(2, brownco, 'Brownco','Bahan cordura Jansport Lapis busa tebal heavy oz Lapis fooring anti air. satu kantong seleting utama 3 belt loop kaitan ke rangka / behel dan shock breaker Dimensi: 22cm x 10cm 15cm', 'Cordura', 'Rp125.000')
+    new Product(1, Montana, 'Montana', 'Bahan cordura Jansport Lapis busa tebal heavy oz Lapis fooring anti air. 1 kantong seleting utama 3 belt loop kaitan ke rangka / behel dan shock breaker Dimensi: 22cm x 10cm 15cm', 'Cordura', 'Rp100.000'),
+    new Product(2, brownco, 'Brownco','Bahan cordura Jansport Lapis busa tebal heavy oz Lapis fooring anti air. 1 kantong seleting utama 3 belt loop kaitan ke rangka / behel dan shock breaker Dimensi: 22cm x 10cm 15cm', 'Cordura', 'Rp125.000'),
+    new Product(3, postman, 'Postman','Bahan cordura Jansport Lapis busa tebal heavy oz Lapis fooring anti air. 2 kantong seleting utama 3 belt loop kaitan ke rangka / behel dan shock breaker Dimensi: 27cm x 12cm 17cm', 'Cordura', 'Rp125.000')
 ]
 
 const dataPhoto = [

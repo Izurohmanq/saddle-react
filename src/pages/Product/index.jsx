@@ -4,6 +4,7 @@ import ActionAreaCard from "../../components/Cards";
 import SFooter from "../../components/Footer";
 import { dataProduct } from "../../data";
 import Details from "../../components/details";
+import Head from "../../components/Head";
 
 function ProductPage() {
   const [showdetail, setShowdetail] = useState(null);
@@ -19,6 +20,13 @@ function ProductPage() {
   return (
     <>
       <SNavbar />
+
+      <Head
+        title="Product | Saddlebagsco"
+        desc="These are products from Saddlebagsco"
+        keywords="saddlebagsco, saddle bags, bags motorcycle, product"
+      />
+
       <div className="container mx-auto">
         <h1> Product </h1>
         <div className="flex justify-center items-center mt-40 flex-col md:flex-row ">
